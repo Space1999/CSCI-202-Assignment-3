@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repreoduce a Painting (Jared Cullum)</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $( function() {
+            $( ".animated_box" ).draggable({ revert: true });
+        });
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>CSS Reproduction of Theo van Doesburg's Counter-Composition XIII (Contra-Composite XIII)</h1>
+    </header>
+
+    <div class="grid-container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+    </div>
+
+    <div class="subheading">
+        <h2>Drag the Blocks to see behind the scenes!</h1>
+    </div>
+
+    <div class="grid-container">
+        <div class="box box1 animated_box"></div>
+        <div class="box box2 animated_box"></div>
+        <div class="box box3 animated_box"></div>
+        <div class="box box4 animated_box"></div>
+        <div class="box box5 animated_box"></div>
+        <div class="box box6 animated_box"></div>
+        <div class="box box7 animated_box"></div>
+    </div>
+
+    <footer>
+        <p>Jared Cullum - CSCI 202 - Assignment 3</p>
+    </footer>
+
+</body>
+</html>
